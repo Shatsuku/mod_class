@@ -12,7 +12,7 @@ your_name = media.Movie("Kimi no Na wa",
 # print(your_name.storyline)
 
 the_garden_of_words = media.Movie("The Garden of Words",
-                    "ยามเมื่อสายฝนโปร่ยปราย",
+                    "ยามสายฝนโปรยปราย",
                     "When a lonely teenager skips his morning lessons to sit in a lovely garden, he meets a mysterious older woman who shares his feelings of alienation.",
                     "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Garden_of_Words_poster.png/220px-Garden_of_Words_poster.png",
                     "https://www.youtube.com/watch?v=udDIkl6z8X0"
