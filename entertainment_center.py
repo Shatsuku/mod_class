@@ -2,40 +2,52 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story",
-                        "A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=wmiIUN-7qhE")
+your_name = media.Movie("Kimi no Na wa",
+                        "หลับตาฝันถึงชื่อเธอ",
+                        "Two teenagers share a profound, magical connection upon discovering they are swapping bodies.",
+                        "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Your_Name_poster.png/220px-Your_Name_poster.png",
+                        "https://www.youtube.com/watch?v=3KR8_igDs1Y"
+                        )
 
-#print(toy_story.storyline)
+# print(your_name.storyline)
 
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+the_garden_of_words = media.Movie("The Garden of Words",
+                    "ยามเมื่อสายฝนโปร่ยปราย",
+                    "When a lonely teenager skips his morning lessons to sit in a lovely garden, he meets a mysterious older woman who shares his feelings of alienation.",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Garden_of_Words_poster.png/220px-Garden_of_Words_poster.png",
+                    "https://www.youtube.com/watch?v=udDIkl6z8X0"
+                    )
 
-#print(avatar.storyline)
-#avatar.show_trailer()
+# print(the_garden_of_words.storyline)
+# the_garden_of_words.show_trailer()
 
-school_of_rock = media.Movie("School of Rock", 
-                             "Using rock music to learn",
-                             "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/School_of_Rock_Poster.jpg/220px-School_of_Rock_Poster.jpg",
-                             "https://www.youtube.com/watch?v=TExoc0MG4I4")
+five_cent_per_sec = media.Movie("5 Centimeters per Second",
+                            "ยามซากุระร่วงโรย",
+                             "Two kids are walking together as the cherry blossom petals fall. After the girl reveals that the falling speed of a cherry blossom petal is 5 centimeters per second",
+                             "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/5_Centimeters_Per_Second_poster.jpg/220px-5_Centimeters_Per_Second_poster.jpg",
+                             "https://www.youtube.com/watch?v=wdM7athAem0"
+                             )
 
-ratatouille = media.Movie("Ratatouille",
-                          "A rat is a chef in Paris",
-                          "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=NgsQ8mVkN8w")
+kaze_tachinu = media.Movie("Kaze Tachinu",
+                            "ปีกแห่งฝัน วันแห่งรัก",
+                            "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi (Hideaki Anno), whose storied career includes the creation of the A6M World War II fighter plane.",
+                            "https://upload.wikimedia.org/wikipedia/en/a/a3/Kaze_Tachinu_poster.jpg",
+                            "https://www.youtube.com/watch?v=Myo3DOPU8jo"
+                            )
 
-midnight_in_paris = media.Movie("Midnight in Paris",
-                                "Goging back in time to meet authors",
-                                "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=FAfR8omt-CY")
+inception = media.Movie("Inception",
+                                "อินเซ็ปชั่น จิตพิฆาตโลก",
+                                "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious.",
+                                "https://flxt.tmsimg.com/assets/p7825626_p_v10_af.jpg",
+                                "https://www.youtube.com/watch?v=FAfR8omt-CY"
+                                )
 
-hunger_games = media.Movie("Hunger Games",
-                           "A reality real reality show",
-                           "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/The_Hunger_Games_cover.jpg/220px-The_Hunger_Games_cover.jpg",
-                           "https://www.youtube.com/watch?v=mfmrPu43DF8")   
+about_time = media.Movie("About Time",
+                            "ย้อนเวลา ให้เธอปิ๊งรัก",
+                            "The men in their family can travel through time. Although he can't change history, Tim resolves to improve his life by getting a girlfriend.",
+                            "https://upload.wikimedia.org/wikipedia/en/7/7c/About_Time_%282013_film%29_Poster.jpg",
+                            "https://www.youtube.com/watch?v=7OIFdWk83no"
+                           )   
 
-movies = [toy_story, avatar, ratatouille, midnight_in_paris, hunger_games, school_of_rock]
+movies = [your_name, the_garden_of_words, five_cent_per_sec, kaze_tachinu, inception, about_time]
 fresh_tomatoes.open_movies_page(movies)
