@@ -18,7 +18,8 @@ the_garden_of_words = media.Movie("The Garden of Words",
                     "https://www.youtube.com/watch?v=udDIkl6z8X0"
                     )
 
-# print(the_garden_of_words.storyline)
+print(the_garden_of_words.storyline)
+print(the_garden_of_words.title_th)
 # the_garden_of_words.show_trailer()
 
 five_cent_per_sec = media.Movie("5 Centimeters per Second",
@@ -39,7 +40,7 @@ inception = media.Movie("Inception",
                                 "อินเซ็ปชั่น จิตพิฆาตโลก",
                                 "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious.",
                                 "https://flxt.tmsimg.com/assets/p7825626_p_v10_af.jpg",
-                                "https://www.youtube.com/watch?v=FAfR8omt-CY"
+                                "https://www.youtube.com/watch?v=YoHD9XEInc0"
                                 )
 
 about_time = media.Movie("About Time",
